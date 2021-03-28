@@ -3,4 +3,6 @@ def get_all_prime(n):
         for each in range(2, n):
             if all(each%i!=0 for i in range(2, each)):
                 print(each)
-get_all_prime(100)
+
+if __name__ == '__main__':
+    get_all_prime(100)
