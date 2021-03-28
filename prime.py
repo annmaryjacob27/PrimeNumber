@@ -1,5 +1,3 @@
-import datetime
-
 def get_all_prime(n):
     if n > 1:
         for each in range(2, n):
